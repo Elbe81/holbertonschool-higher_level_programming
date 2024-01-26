@@ -2,4 +2,4 @@
 str = "Python is an interpreted, interactive, object-oriented programming\
         language that combines remarkable power with very clear syntax"
 
-print(str[str.find("object-oriented"):].split(" ")[0] + " " + str.split(" ")[-1])
+print(str.split(',')[2][1:], end='\n')
